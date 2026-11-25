@@ -1,6 +1,6 @@
-# problem and User needs
-# The problem
-Students at Uganda Cristian University report lost and Found property in whatapp groups and messages get covered
+# Problem and User needs
+## The problem
+Students at Uganda Christian University report lost and Found property in whatapp groups and messages get covered
 The owner may never see them.There is no way to check who really owns the Item and nobody records when it is returned
 
 ## Users and their needs
@@ -11,6 +11,6 @@ The owner may never see them.There is no way to check who really owns the Item a
 ### student who found an item
 - Reports the Item with place, date and details private
 - Checks for claims
-## Administrator
+### Administrator.
 - Checks for claims  and record decisions
 - Verify claim Authentication
