@@ -8,6 +8,7 @@
 |R3| A logged-in students can post a lost or found item| Given a logged-in student,when they click logout,then the session ends and the protected pages are longer accessible|
 |R4| Only logged-in students can post a lost or found item| Given avisitor who is not logged in when they try to post an item,then they are redirected to the login page|
 |R5| An admin can remove in appropriate posts| Given a logged-in admin when they delete a post, then it is removed and nolonger shown in the item list|
+| R6 | The system rejects a login with a wrong password | Given a wrong password, when the login form is submitted, then an error message is shown and no session is created |
 | R7 | A logged-in student can post a lost item with title, description, location and date | Given a logged-in student, when the lost item form is submitted with all required fields, then the item is saved and appears in the lost items list |
 | R8 | A logged-in student can post a found item with title, description, location and date | Given a logged-in student, when the found item form is submitted with all required fields, then the item is saved and appears in the found items list |
 | R9 | A student can upload a photo with a post | Given a post form, when a valid image under the size limit is attached, then the photo is stored and shown with the item |
