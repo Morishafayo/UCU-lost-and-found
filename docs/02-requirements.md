@@ -16,6 +16,7 @@
 | R11 | A student can search and filter items by keyword, category or status | Given a list of items, when a keyword or filter is applied, then only matching items are shown |
 | R12 | The owner of a post can mark it as claimed or resolved | Given a post owned by the logged-in student, when they mark it resolved, then its status changes and it is no longer shown as active |
 | R13 | A post cannot be submitted with missing required fields | Given the item form, when a required field is empty, then an error message is shown and nothing is saved |
+
 ## Claims and contact
 
 | ID | Requirement | Acceptance criteria |
