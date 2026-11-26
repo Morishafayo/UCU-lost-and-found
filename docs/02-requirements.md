@@ -16,3 +16,20 @@
 | R11 | A student can search and filter items by keyword, category or status | Given a list of items, when a keyword or filter is applied, then only matching items are shown |
 | R12 | The owner of a post can mark it as claimed or resolved | Given a post owned by the logged-in student, when they mark it resolved, then its status changes and it is no longer shown as active |
 | R13 | A post cannot be submitted with missing required fields | Given the item form, when a required field is empty, then an error message is shown and nothing is saved |
+## Claims and contact
+
+| ID | Requirement | Acceptance criteria |
+|----|-------------|---------------------|
+| R14 | A logged-in student can claim a found item | Given a found item, when a logged-in student submits a claim with a short proof message, then the claim is saved and linked to that item |
+| R15 | The item owner can see claims and approve or reject them | Given an item with claims, when the owner opens it, then all claims are listed with approve and reject buttons |
+| R16 | An approved claim shows the contact details of both parties | Given an approved claim, when either party opens the item, then the other party's name and contact are shown |
+
+## Non-functional requirements
+
+| ID | Requirement | Acceptance criteria |
+|----|-------------|---------------------|
+| NF1 | The interface works on phone and computer screens | Given a screen width from 360px to 1280px, when any page is opened, then the content is readable without sideways scrolling |
+| NF2 | Passwords are never stored or sent in plain text | Given the users table, when it is inspected, then only hashed passwords are found |
+| NF3 | Pages load quickly | Given the items page, when it is opened on a normal connection, then it loads in under 3 seconds |
+| NF4 | Inputs are validated on the server | Given a request with invalid data sent directly to the API, when it is received, then it is rejected with an error |
+| NF5 | The system uses a MySQL database | Given the running system, when data is saved, then it is stored in MySQL tables |
